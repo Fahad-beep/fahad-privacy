@@ -14,6 +14,10 @@ For a better experience, while using our Service, I may require you to provide u
 
 The app does use third-party services that may collect information used to identify you.
 
+Our app uses uploading a picture feature in help page in Bonoki. If you want request to add another bank of currency or country which is not in our data base then with filling form in our Help page with uploading a picture relevant to your request can help to progress. picture taken from Bonoki will be saved temporarily in your local storage then at the time of sending request it will be send to our data base project in Firebase Database. It willl not beused else where.
+
+Our sms feature will read sms from sms app itself or from notification then match the bank name from our saved bank names, if it matches then our app will skim through sms and extract relevant information like data, credit, and debit and store it into your created wallet in our app. it will not read anything else. sms will be fully read only if it is coming from a bank of our expectations. all the data from bank ms will saved in Firebase database for secure keeping.
+
 Link to the privacy policy of third-party service providers used by the app
 
     Google Play Services
