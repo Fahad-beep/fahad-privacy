@@ -44,6 +44,36 @@ I may employ third-party companies and individuals due to the following reasons:
 
 I want to inform users of this Service that these third parties have access to their Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
 
+1. Google Account Integration:
+Now you can use your Google account to log in or create a Bonoki account using your Gmail and password. Enjoy a simplified and secure login experience.
+
+2. Smart SMS Parsing:
+Bonoki is now smarter than ever! It can intelligently read the sender's name from SMS and determine whether it's from a bank. If it is, Bonoki extracts credit/debit amount, date, and to/from details, saving this information securely in your account.
+
+3. Multiple Bank Account Management:
+Manage your finances effortlessly! Create and track multiple bank accounts within Bonoki to monitor your credit and debit transactions. Stay in control of your money by understanding where and when transactions occur.
+
+4. Account and Transaction Management:
+You have the power to delete any bank account or specific transaction from your Bonoki app. Customize your financial data to suit your needs seamlessly.
+
+5. Secure Data Storage:
+Rest easy knowing all your financial data is securely stored in Google Firebase database. Your information is protected and accessible only to you.
+
+6. Easy Bank Addition:
+Need to add a new bank to Bonoki? Visit our Help page, fill out a form with relevant details, and attach a picture related to your request. The image is temporarily stored locally, ensuring a smooth submission process.
+
+7. User-Initiated Transactions:
+Take control of your financial records by adding your transactions manually. Bonoki enables you to input your own transaction details with ease.
+
+8. Push Notifications:
+Receive instant notifications! Bonoki will alert you with a push notification when it successfully extracts and saves relevant data from a bank SMS.
+
+9. Account Deletion Process:
+Deleting your Bonoki account is now streamlined. Fill out a Google Form available on our Google Play Store page, ensuring a secure and straightforward account deletion process.
+
+10. Privacy Assurance:
+We value your privacy. Bonoki only uses Google Firebase for data storage and retrieval. Rest assured, we neither read nor send any data beyond the confines of Google Firebase.
+
 ### Security
 
 I value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and I cannot guarantee its absolute security.
