@@ -79,16 +79,14 @@ Bonoki includes a feature that allows users to submit pictures from their galler
 The submitted pictures are processed securely within the app, and a link to the image is created and stored in Firebase Firestore.
 The images are not shared or forwarded anywhere else, ensuring the privacy and safety of user-submitted content.
 This feature is optional, and the app remains functional even if users choose not to utilize it.
-SMS Reading Feature:
 
 12. SMS Reading
 Bonoki reads SMS messages to extract relevant data, particularly when the message is from a recognized bank.
 The app first reads the sender's name, checks against the contact list to verify it's associated with a bank, and proceeds to extract and store the necessary information in Firebase Firestore.
 The extracted data is securely stored and is not shared or stored anywhere else outside of the app.
 This feature is crucial to the functionality of the app, and without it, certain core features may not work as intended.
-Data Storage and Memory Usage:
 
-13. Use OF Memory
+13. Data Storage and Memory Usage:
 Bonoki utilizes internal or external memory when necessary, such as during the signup process.
 During signup, source information (e.g., Google credentials) is temporarily stored in internal or external memory for subsequent logins.
 Data fetched from the server may be temporarily stored in memory to facilitate user interaction, such as displaying information to the user.
