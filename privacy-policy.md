@@ -74,6 +74,32 @@ Deleting your Bonoki account is now streamlined. Fill out a Google Form availabl
 10. Privacy Assurance:
 We value your privacy. Bonoki only uses Google Firebase for data storage and retrieval. Rest assured, we neither read nor send any data beyond the confines of Google Firebase.
 
+11.Image Submission Feature:
+Bonoki includes a feature that allows users to submit pictures from their gallery or camera for enhanced clarity in support requests.
+The submitted pictures are processed securely within the app, and a link to the image is created and stored in Firebase Firestore.
+The images are not shared or forwarded anywhere else, ensuring the privacy and safety of user-submitted content.
+This feature is optional, and the app remains functional even if users choose not to utilize it.
+SMS Reading Feature:
+
+12. SMS Reading
+Bonoki reads SMS messages to extract relevant data, particularly when the message is from a recognized bank.
+The app first reads the sender's name, checks against the contact list to verify it's associated with a bank, and proceeds to extract and store the necessary information in Firebase Firestore.
+The extracted data is securely stored and is not shared or stored anywhere else outside of the app.
+This feature is crucial to the functionality of the app, and without it, certain core features may not work as intended.
+Data Storage and Memory Usage:
+
+13. Use OF Memory
+Bonoki utilizes internal or external memory when necessary, such as during the signup process.
+During signup, source information (e.g., Google credentials) is temporarily stored in internal or external memory for subsequent logins.
+Data fetched from the server may be temporarily stored in memory to facilitate user interaction, such as displaying information to the user.
+Temporary storage is used during the image submission process, where links are temporarily stored in memory before being saved to Firebase Filestore.
+These features are essential for the app's functionality, and without them, certain aspects of the app may not work correctly.
+Security Measures:
+
+We implement industry-standard security measures to protect your data from unauthorized access.
+All data transmission between the app and our servers is encrypted.
+Access to stored data is restricted to authorized personnel only.
+
 ### Security
 
 I value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and I cannot guarantee its absolute security.
