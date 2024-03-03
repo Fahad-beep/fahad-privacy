@@ -55,6 +55,8 @@ We don't use any external or internal library or API to access user's file. We d
 We don't ask for any image information from Users only if the User wanted from us add new Message format or new Wallet with the name of the Bank that he is using, So in this case we need the image for the Message Format or Bank Name just to make sure the way that how we are going to make it show in our application.
 And We do not use any information or anything in the images for a purpose that is contrary to user policy.
 
+Our App based on SMS transactions register, So when the message come that for diposet/withdraw the app will take the information from the sms page.
+
 Contact Information
 If you have any questions or comments about our privacy policy and practices, please contact us at contact@oygula.com or by writing to us at:
 
