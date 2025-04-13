@@ -83,5 +83,4 @@ Contact Us
 If you have any questions about this Privacy Policy, reach out to:
 
 Mental Support – Domino Mental Support Application
-📧 Email: info@mentalsupport.com
 
